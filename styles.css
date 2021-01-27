@@ -1,0 +1,212 @@
+
+                                 /*section ids*/
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+#testimonials {
+  padding: 7% 15% 7% 15%;
+  background-color: #ef8172;
+  color: white;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-left: 420px;
+  padding-bottom: 30px;
+}
+#cta {
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  text-align: center;
+  color: white;
+  height: 450px;
+}
+
+#footer {
+  height: 90px;
+}
+
+                                  /*tags*/
+
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family:"Montserrat";
+}
+h1 {
+
+  font-size: 3em;
+  line-height: 1.5;
+}
+
+h2 {
+  text-align: center;
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+                               /*classes*/
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.imageiphone {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.fa-3x {
+  color: #ef8172;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.fa-3x:hover {
+  color: #ff4c68
+}
+.new {
+  color: grey;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  color: #ef8172;
+}
+
+.dog {
+  height: 20%;
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+  margin-left: 450px;
+}
+
+.doglove {
+  font-size: 3em;
+  width: 66%;
+  margin-left: 300px;
+  padding-top: 60px;
+  padding-bottom: 1px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.lastbutton {
+  padding-left: 10%;
+}
+
+.creds {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.favicon {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Copyright {
+  margin-top: 50px;
+}
+
+.fa-twitter {
+  margin-right: 15px;
+}
+
+.fa-twitter:hover {
+  color: grey;
+}
+
+.fa-facebook-f {
+  margin-right: 15px;
+}
+
+.fa-facebook-f:hover {
+  color: grey;
+}
+
+.fa-instagram {
+  margin-right: 15px;
+}
+
+.fa-instagram:hover {
+  color: grey;
+}
+
+.fa-envelope {
+  margin-right: 15px;
+}
+
+.fa-envelope:hover {
+  color: grey;
+}
+
+                            /*media condition for viewing webpage on phone*/
+
+@media (max-width:1028px) {
+   #title {
+      text-align: center;
+    }
+  .imageiphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .doglove {
+    font-size: 3em;
+    width: 95%;
+    margin-left: 00px;
+    padding-top: 60px;
+    padding-bottom: 1px;
+    text-align: center;
+  }
+}
